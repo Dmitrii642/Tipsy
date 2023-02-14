@@ -13,8 +13,6 @@
 		66AB61E1299A9E0000019F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66AB61E0299A9E0000019F96 /* Assets.xcassets */; };
 		66AB61E4299A9E0000019F96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66AB61E2299A9E0000019F96 /* LaunchScreen.storyboard */; };
 		66AB61ED299AA59C00019F96 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AB61EC299AA59C00019F96 /* ResultViewController.swift */; };
-		66AB61F2299AA66600019F96 /* Tipsy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AB61F1299AA66600019F96 /* Tipsy.swift */; };
-		66AB61F4299AA67B00019F96 /* CalculateTipsy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AB61F3299AA67B00019F96 /* CalculateTipsy.swift */; };
 		66AB61F6299AAB2E00019F96 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AB61F5299AAB2E00019F96 /* CalculateViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,8 +25,6 @@
 		66AB61E3299A9E0000019F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66AB61E5299A9E0000019F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66AB61EC299AA59C00019F96 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		66AB61F1299AA66600019F96 /* Tipsy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tipsy.swift; sourceTree = "<group>"; };
-		66AB61F3299AA67B00019F96 /* CalculateTipsy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateTipsy.swift; sourceTree = "<group>"; };
 		66AB61F5299AAB2E00019F96 /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +60,6 @@
 			children = (
 				66AB61D7299A9DFE00019F96 /* AppDelegate.swift */,
 				66AB61D9299A9DFE00019F96 /* SceneDelegate.swift */,
-				66AB61EF299AA5C600019F96 /* Model */,
 				66AB61EE299AA5A300019F96 /* View */,
 				66AB61F0299AA5CC00019F96 /* Controller */,
 				66AB61EB299A9F2600019F96 /* Resurce */,
@@ -88,15 +83,6 @@
 				66AB61DD299A9DFE00019F96 /* Main.storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		66AB61EF299AA5C600019F96 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				66AB61F1299AA66600019F96 /* Tipsy.swift */,
-				66AB61F3299AA67B00019F96 /* CalculateTipsy.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		66AB61F0299AA5CC00019F96 /* Controller */ = {
@@ -180,8 +166,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				66AB61F6299AAB2E00019F96 /* CalculateViewController.swift in Sources */,
-				66AB61F2299AA66600019F96 /* Tipsy.swift in Sources */,
-				66AB61F4299AA67B00019F96 /* CalculateTipsy.swift in Sources */,
 				66AB61D8299A9DFE00019F96 /* AppDelegate.swift in Sources */,
 				66AB61DA299A9DFE00019F96 /* SceneDelegate.swift in Sources */,
 				66AB61ED299AA59C00019F96 /* ResultViewController.swift in Sources */,
